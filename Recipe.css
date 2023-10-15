@@ -1,0 +1,198 @@
+
+* {
+    overflow: auto;
+}
+
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+div.Content {
+    background-color: white;
+    margin: 40px 8px 80px 8px;
+    padding: 0px 8px 20px 8px;
+    /*min-width: 400px;*/
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.1);
+    overflow: visible;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+p.Description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+div.Description {
+    text-align: center;
+}
+
+div.Header {
+    text-align: center;
+    margin: -0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: visible;
+    
+}
+
+div.separator {
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+p.Category {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px 8px;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    overflow: visible;
+    }
+.Cake {
+    width: 100%;
+    display: block;
+    max-height: 590px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: beige;
+    
+}
+
+div.infor {
+    position: relative;
+}
+
+table.infor {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #6C829DC0;
+    height: 50px;
+}
+
+table.infor td {
+    text-align: center;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+table.infor th {
+    vertical-align: bottom;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+
+div.col1, div.col2 {
+    width: 100%;
+    margin-top: 45px;
+}
+div.col1 {
+    
+    display: inline-block;
+    /*margin-right: 10%;*/
+}
+
+div.col2 {
+    /*float: right;*/   
+}
+div.col h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid peru;
+    padding-bottom: 5px;
+}
+
+div.ingr p {
+    text-align: center;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 1px;
+}
+
+table.instr p.number {
+    background-color: #8BA1BB;
+    color: wheat;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+table.instr td.instr step {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+table.instr {
+    vertical-align: top;
+}
+
+table.instr tr {
+    height: 10px;
+}
+
+/* for desktop */
+@media only screen and (min-width: 768px) {
+
+    div.Content {
+        margin: 60px 10% 80px 10%;
+        padding: 0px 30px 30px 30px;
+        min-width: 400px;
+        max-width: 650px;
+    }
+
+    table.infor {
+        height: 80px;
+    }
+
+    table.infor td {
+        font-size: 14px;
+    }
+    
+    table.infor th {
+        font-size: 16px;
+    }
+
+    
+div.col1, div.col2 {
+    width: 45%;
+}
+div.col1 {
+    margin-right: 10%;
+}
+
+div.col2 {
+    float: right; 
+}
+}
+
+@media only screen and (min-width: 900px) {
+    div.Content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+    }
+}
